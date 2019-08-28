@@ -1,0 +1,149 @@
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+.a{
+    /* position: absolute; */
+    /* margin-right: 34px; */
+    /* top: 0; */
+    /* background: red */
+}
+main {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
+    overflow-y: hidden;
+    /* background: blue */
+}
+body{
+    overflow-y: hidden
+}
+
+.g {
+     /* width: 50%; */
+     display: flex;
+     flex-direction: column;
+    min-height: 100vh;
+    min-width: 35vw;
+    align-items: space-between;
+    /* background: #5bbcfd */
+    /* background-color: blue; */
+
+}
+
+.g a{
+    margin: 1.5rem;
+    font-family: "Raleway", sans-seriff;
+    font-size: 2.5rem;
+    color:black;
+    text-decoration: none
+}
+.g a:hover {
+    font-size: 2.7rem;
+    color:hsl(0, 0%, 50%)
+}
+img{
+    height: 20.2rem;
+    margin-left:3rem;
+    margin-top: 9rem;
+    width: 65%
+    /* background: red */
+}
+h1, h5{
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    line-height: 1.6;
+    color: #fff
+}
+.desc{
+    margin-left: 6.9rem;
+    margin-top: .5rem;
+    /* color: grey */
+}
+.landing{
+    background: #0292ff
+    
+}
+
+.btn a{
+    text-decoration: none;
+    color: aqua;
+    box-shadow: 0 3px  #fff;
+    font-family: Raleway;
+    margin: 0 .5rem
+}
+
+.btn a:hover {
+    font-size: 1.2em;
+    color: hsl(0, 0%, 50%);
+    border-radius: 4px;
+}
+
+.btn{    
+    margin-right: 11.9rem;
+    line-height: 1.6;
+    margin-top: 3rem
+}
+
+.dark-overlay{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 65vw;
+    min-height: 100vh;
+    /* background: pink */
+}
+
+.data {
+   display: flex;
+   flex-direction: column;
+   margin-right: .3rem;
+   
+}
+input[type="email"] {
+    margin: .9rem;
+    width: 20rem;
+    height: 2.5rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    padding-left: 0.4rem;
+    color: hsl(0, 0%, 50%)
+
+}
+
+input[type="password"] {
+    margin: .9rem;
+    width: 20rem;
+    height: 2.5rem;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    color: hsl(0, 0%, 50%);
+    padding-left:0.4rem
+
+}
+
+input[type="button"]{
+    margin: .5rem;
+    width:  4.5rem;
+    height: 2.0rem;
+    border-radius: 10px;
+    margin-left: 1.0rem;
+    background: white;
+    color: aqua;
+}
+
+input{
+    border-radius: 10px;
+}
+
+@media screen only (max-width:750px) {
+    img{
+        widows: 75%;
+    }
+}
